@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Condicional IF</title>
+</head>
+<style type="text/css">
+  span  .notas{
+         color: red;
+     }
+ </style>
+<body>
+    
+    <form action="dados.php" method="get">
+        <fieldset>
+
+            <h1>Essa pessoa pode votar e dirigir?</h1>
+            <label for="data">Informe o ano de nascimento</label>
+            <input type="text" name="ano" id="data"/>
+            <input type="submit" value="Verificar"/>
+        </fieldset>
+
+        <fieldset id="mediaNotas">
+           
+            <h1>Informe as duas notas</h1>
+            <label for="nota1">Nota 1: </label>
+            <input type="number" name="n1" id="nota1"/><br>
+            <label for="nota2">Nota 2: </label>
+            <input type="number" name="n2" id="nota2"/><br>
+            <input type="submit" value="Calcular"/>
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
